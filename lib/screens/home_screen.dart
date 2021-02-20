@@ -31,11 +31,11 @@ class _HomeScreenState extends State<HomeScreen> {
   FToast fToast;
   Mail() async {
     var top = new GmailSmtpOptions()
-      ..username = 'vorapreetipondy@gmail.com'
-      ..password = 'preeti1978';
+      ..username = 'fvscode@gmail.com'
+      ..password = '';
     var emailTransport = new SmtpTransport(top);
     var envelop = new Envelope()
-      ..from = 'vorapreetipondy@gmail.com'
+      ..from = 'fvscode@gmail.com'
       ..recipients.add('snkhambhay777@gmail.com') //recipent email
       ..ccRecipients.addAll(
           ['destCc1@example.com', 'destCc2@example.com']) //cc Recipents emails
